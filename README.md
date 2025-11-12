@@ -7,13 +7,13 @@ The code is written in HTML5 and CSS3. These are the foundational web technologi
 <b> Project Overview: </b> <br>
 This is a personal portfolio/resume website for a student named Fahmida Akter Shimu. The project consists of 4 separate HTML pages:
 <br>
-Home Page (index.html) - Main landing page with personal information, contact details, education summary, and experience
+1. Home Page (<i>index.html</i>) - Main landing page with personal information, contact details, education summary, and experience
 <br>
-Education Page (results.html) - Displays educational certificates (JSC, SSC, HSC)
+2. Education Page (<i>results.html</i>) - Displays educational certificates (JSC, SSC, HSC)
 <br>
-Skills Page (skill.html) - Showcases technical skills like C, C++, Java, HTML, WordPress, and Data Analysis
+3. Skills Page (<i>skill.html</i>) - Showcases technical skills like C, C++, Java, HTML, WordPress, and Data Analysis
 <br>
-Hobby Page (hobby.html) - Highlights personal hobbies including Drawing, Gardening, and Reading
+4. Hobby Page (<i>hobby.html</i>) - Highlights personal hobbies including Drawing, Gardening, and Reading
 <br><br>
 <b> Technical Details: </b>
 <br>
