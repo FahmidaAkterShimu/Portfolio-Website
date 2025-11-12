@@ -1,6 +1,6 @@
 # Portfolio-Website
-This is a beginner to intermediate level web development project, typical of a student portfolio website assignment.
-<br><br>
+This is a beginner-to-intermediate level web development project, typical of a student portfolio website assignment.
+<br>
 
 <b> Programming Languages Used: </b> <br>
 The code is written in HTML5 and CSS3. These are the foundational web technologies for creating websites.
@@ -16,16 +16,16 @@ This is a personal portfolio/resume website for a student. The project consists 
 
 <b> Technical Details: </b>
 <br>
-> HTML5 structure with semantic markup <br>
-> Inline CSS styling (styles are embedded in <style> tags within each page) <br>
-> Responsive design using Flexbox layout and media queries for mobile compatibility <br>
-> Navigation bar linking to different sections <br>
-> Uses background images for headers <br>
-> Includes tables for structured data presentation <br>
-> Local image references (jpg, webp, jpeg, png formats)
+• HTML5 structure with semantic markup <br>
+• Inline CSS styling (styles are embedded in <style> tags within each page) <br>
+• Responsive design using Flexbox layout and media queries for mobile compatibility <br>
+• Navigation bar linking to different sections <br>
+• Uses background images for headers <br>
+• Includes tables for structured data presentation <br>
+• Local image references (jpg, webp, jpeg, png formats)
 <br><br>
 
 <b> Key Features: </b> <br>
-> Responsive layout that adapts to different screen sizes (700px and 400px breakpoints) <br>
-> Clean, professional design with consistent color scheme (blue accents: rgb(5, 126, 255)) <br>
-> Contact information, educational qualifications, work experience, skills, and hobbies sections <br>
+• Responsive layout that adapts to different screen sizes (700px and 400px breakpoints) <br>
+• Clean, professional design with consistent color scheme (blue accents: rgb(5, 126, 255)) <br>
+• Contact information, educational qualifications, work experience, skills, and hobbies sections <br>
