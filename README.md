@@ -17,15 +17,15 @@ This is a personal portfolio/resume website for a student named Fahmida Akter Sh
 <br><br>
 <b> Technical Details: </b>
 <br>
-HTML5 structure with semantic markup
-Inline CSS styling (styles are embedded in <style> tags within each page)
-Responsive design using Flexbox layout and media queries for mobile compatibility
-Navigation bar linking to different sections
-Uses background images for headers
-Includes tables for structured data presentation
-Local image references (jpg, webp, jpeg, png formats)
+> HTML5 structure with semantic markup
+> Inline CSS styling (styles are embedded in <style> tags within each page)
+> Responsive design using Flexbox layout and media queries for mobile compatibility
+> Navigation bar linking to different sections
+> Uses background images for headers
+> Includes tables for structured data presentation
+> Local image references (jpg, webp, jpeg, png formats)
 <br><br>
-<b> Key Features: </b>
-Responsive layout that adapts to different screen sizes (700px and 400px breakpoints)
-Clean, professional design with consistent color scheme (blue accents: rgb(5, 126, 255))
-Contact information, educational qualifications, work experience, skills, and hobbies sections
+<b> Key Features: </b> <br>
+> Responsive layout that adapts to different screen sizes (700px and 400px breakpoints)
+> Clean, professional design with consistent color scheme (blue accents: rgb(5, 126, 255))
+> Contact information, educational qualifications, work experience, skills, and hobbies sections
