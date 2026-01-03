@@ -1,346 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Fahmida</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
+  <title>My Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/online-resume.png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
 
-/*Remove Underline from link*/
-.links a{
-  text-decoration: none;
-  color: rgb(5, 126, 255);
-}
+    /*Remove Underline from link*/
+    .links a {
+      text-decoration: none;
+      color: rgb(5, 126, 255);
+    }
 
-/* Style the body */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
+    /* Style the body */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+    }
 
-/* Header/logo Title */
-.header {
-  padding: 200px;
-  text-align: center;
-  background-image:url(images/9.jpg);
-  color: white;
-}
+    /* Header/logo Title */
+    .header {
+      padding: 200px;
+      text-align: center;
+      background-image: url(images/9.jpg);
+      color: white;
+    }
 
-/* Increase the font size of the heading */
-.header h1 {
-  font-size: 40px;
-}
+    /* Increase the font size of the heading */
+    .header h1 {
+      font-size: 40px;
+    }
 
-/* Style the top navigation bar */
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
+    /* Style the top navigation bar */
+    .navbar {
+      overflow: hidden;
+      background-color: #333;
+    }
 
-/* Style the navigation bar links */
-.navbar a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
 
-/* Right-aligned link */
-.navbar a.right {
-  float: right;
-}
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right;
+    }
 
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
+    /* Change color on hover */
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
 
-/* Column container */
-.row {  
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-}
+    /* Column container */
+    .row {
+      display: -ms-flexbox;
+      /* IE10 */
+      display: flex;
+      -ms-flex-wrap: wrap;
+      /* IE10 */
+      flex-wrap: wrap;
+    }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-  -ms-flex: 30%; /* IE10 */
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
-}
+    /* Create two unequal columns that sits next to each other */
+    /* Sidebar/left column */
+    .side {
+      -ms-flex: 30%;
+      /* IE10 */
+      flex: 30%;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
 
-/* Main column */
-.main {   
-  -ms-flex: 70%; /* IE10 */
-  flex: 70%;
-  text-align: center;
-  background-color: white;
-  padding: 20px;
-}
+    /* Main column */
+    .main {
+      -ms-flex: 70%;
+      /* IE10 */
+      flex: 70%;
+      text-align: center;
+      background-color: white;
+      padding: 20px;
+    }
 
-/* Main column lower */
-.mainL { 
-  text-align: left;  
-  background-color: white;
-  padding: 20px;
-}
+    /* Main column lower */
+    .mainL {
+      text-align: left;
+      background-color: white;
+      padding: 20px;
+    }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
+    /* Fake image, just for this example */
+    .fakeimg {
+      background-color: #aaa;
+      width: 100%;
+      padding: 20px;
+    }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
+    /* Footer */
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #ddd;
+    }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
-  .row {   
-    flex-direction: column;
-  }
-}
+    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 700px) {
+      .row {
+        flex-direction: column;
+      }
+    }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
+    /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 400px) {
+      .navbar a {
+        float: none;
+        width: 100%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-<div class="header"
-style="background-repeat: no-repeat; 
+  <div class="header" style="background-repeat: no-repeat; 
     background-size: 100% 100%">
-  <h1>My Website</h1>
-  <p>A website created by me.</p>
-</div>
+    <h1>My Website</h1>
+    <p>A website created by me.</p>
+  </div>
 
-<div class="navbar">
-  <a href="http://127.0.0.1:5500/Portfolio-Website/index.html" >ABOUT</a>
-  <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" >EDUCATION</a>
-  <a href="http://127.0.0.1:5500/Portfolio-Website/skill.html">SKILLS</a>
-  <a href="http://127.0.0.1:5500/Portfolio-Website/hobby.html">HOBBY</a>
-</div>
-
-
-<div class="row">
-
-  <div class="side">
-    <img src="images/1.jpg" alt="Error loading image" width="200" height="200">
-    <h3 style="color: rgb(5, 126, 255);">Contact Info :</h3>
-    <h4>Phone</h4> <p>01357924680</p><br>
-    <h4>Mail</h4> <p>fahmidaakter28@gmail.com</p><br>   
-    <h4>Present Address</h4> <p>Block-D, Mirpur-12, Dhaka-1216</p><br>
-    <h4>Permanent Addrress</h4>
-    <table cellpadding="3">
-      <tr>
-        <td width="55%">Village</td>
-        <td>: Shoilan</td>
-      </tr>
-      <tr>
-        <td>Post Office</td>
-        <td>: Katlahat</td>
-      </tr>
-      <tr>
-        <td>Police Station</td>
-        <td>: Birampur</td>
-      </tr>
-      <tr>
-        <td>District</td>
-        <td>: Dinajpur</td>
-      </tr>
-    </table><br>
-
-    <h3 style="color: rgb(5, 126, 255);">Summary :</h3>
-    <p>Engineer with a strong interest in breaking new ground and doing unprecedented stuff. 
-      A proven ability to use experience to provide strategic value adds value to the organization. Skilled, responsible, and entrepreneurial.
-    </p>
+  <div class="navbar">
+    <a href="http://127.0.0.1:5500/Portfolio-Website/index.html">ABOUT</a>
+    <a href="http://127.0.0.1:5500/Portfolio-Website/results.html">EDUCATION</a>
+    <a href="http://127.0.0.1:5500/Portfolio-Website/skill.html">SKILLS</a>
+    <a href="http://127.0.0.1:5500/Portfolio-Website/hobby.html">HOBBY</a>
   </div>
 
 
-  <div class="main">
-    <div class="links a">
-      <a href="http://127.0.0.1:5500/Portfolio-Website/index.html" style="font-size: 22px;" target="_blank">
-        <b> Fahmida Akter Shimu </b></a>
+  <div class="row">
+
+    <div class="side">
+      <img src="images/1.jpg" alt="Error loading image" width="200" height="200">
+      <h3 style="color: rgb(5, 126, 255);">Contact Info :</h3>
+      <h4>Phone</h4>
+      <p>01357924680</p><br>
+      <h4>Mail</h4>
+      <p>fahmidaakter28@gmail.com</p><br>
+      <h4>Present Address</h4>
+      <p>Block-D, Mirpur-12, Dhaka-1216</p><br>
+      <h4>Permanent Addrress</h4>
+      <table cellpadding="3">
+        <tr>
+          <td width="55%">Village</td>
+          <td>: Shoilan</td>
+        </tr>
+        <tr>
+          <td>Post Office</td>
+          <td>: Katlahat</td>
+        </tr>
+        <tr>
+          <td>Police Station</td>
+          <td>: Birampur</td>
+        </tr>
+        <tr>
+          <td>District</td>
+          <td>: Dinajpur</td>
+        </tr>
+      </table><br>
+
+      <h3 style="color: rgb(5, 126, 255);">Summary :</h3>
+      <p>Engineer with a strong interest in breaking new ground and doing unprecedented stuff.
+        A proven ability to use experience to provide strategic value adds value to the organization. Skilled,
+        responsible, and entrepreneurial.
+      </p>
     </div>
-    <h5>BSc in Computer Science & Engineering <br>
-               7th Semester <br>
-    Shyamoli Textile Engineering College
-    </h5>
 
-    <div class="mainL">
-      <h3 style="color: rgb(5, 126, 255);">Personal Information :</h3>
-      <table cellpadding="10">
-        <tr>
-          <td>Father's Name</td>
-          <td>: Md. Mominur Rahman</td>
-        </tr>
-        <tr>
-          <td>Mother's Name</td>
-          <td>: Fatema Khatun</td>
-        </tr>
-        <tr>
-          <td>Date of Birth</td>
-          <td>: January 19, 2001</td>
-        </tr>
-        <tr>
-          <td>Occupation</td>
-          <td>: Student</td>
-        </tr>
-        <tr>
-          <td>Current Institute</td>
-          <td>: Shyamoli Textile Engineering College</td>
-        </tr>
-        <tr>
-          <td>Subject</td>
-          <td>: Computer Science & Engineering (CSE)</td>
-        </tr>
-        <tr>
-          <td>Gender</td>
-          <td>: Female</td>
-        </tr>
-        <tr>
-          <td>Marital Status</td>
-          <td>: Unmarried</td>
-        </tr>
-        <tr>
-          <td>Blood Group</td>
-          <td>: A+</td>
-        </tr>
-        <tr>
-          <td>Religion</td>
-          <td>: Islam</td>
-        </tr>
-        <tr>
-          <td>Nationality</td>
-          <td>: Bangladeshi</td>
-        </tr>
-      </table><br>
 
+    <div class="main">
       <div class="links a">
-        <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="font-size: 19px;" target="_blank">
-          <b> Educational Qualification :</b>
-        </a></div><br>
-      <table border="1" cellpadding="10">
-        <tr>
-          <th>Examination</th>
-          <th>Group</th>
-          <th>Board</th>
-          <th>Results</th>
-          <th>Passing Year</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="links a">
-              <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
-                PSC</a>
-            </div>
-          </td>
-          <td>-</td>
-          <td>Dhaka</td>
-          <td>5.00</td>
-          <td>2011</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="links a">
-              <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
-                JSC</a>
-            </div>
-          </td>
-          <td>-</td>
-          <td>Dhaka</td>
-          <td>4.89</td>
-          <td>2014</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="links a">
-              <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
-                SSC</a>
-            </div>
-          </td>
-          <td>Science</td>
-          <td>Dhaka</td>
-          <td>5.00</td>
-          <td>2017</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="links a">
-              <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
-                HSC</a>
-            </div>
-          </td>
-          <td>Science</td>
-          <td>Dhaka</td>
-          <td>4.00</td>
-          <td>2019</td>
-        </tr>
-      </table><br>
-      
-      <h3 style="color: rgb(5, 126, 255);">Experience :</h3>
-      <p>I started tuition in after since my college life. 
-        I have experience to teach class 4,5,6,7, SSC & HSC. 
-        Now I am teaching 3 students of class 9-10 (ICT, Math, Higher Math) for almost 2 years and running. 
-        And also 1 student of HSC (ICT only).
-      </p><br>
+        <a href="http://127.0.0.1:5500/Portfolio-Website/index.html" style="font-size: 22px;" target="_blank">
+          <b> Fahmida Akter Shimu </b></a>
+      </div>
+      <h5>BSc in Computer Science & Engineering <br>
+        7th Semester <br>
+        Shyamoli Textile Engineering College
+      </h5>
 
-      <div class="links a">
-        <a href="http://127.0.0.1:5500/Portfolio-Website/skill.html" style="font-size: 19px;" target="_blank">
-          <b>Skills :</b>
+      <div class="mainL">
+        <h3 style="color: rgb(5, 126, 255);">Personal Information :</h3>
+        <table cellpadding="10">
+          <tr>
+            <td>Father's Name</td>
+            <td>: Md. Mominur Rahman</td>
+          </tr>
+          <tr>
+            <td>Mother's Name</td>
+            <td>: Fatema Khatun</td>
+          </tr>
+          <tr>
+            <td>Date of Birth</td>
+            <td>: January 19, 2001</td>
+          </tr>
+          <tr>
+            <td>Occupation</td>
+            <td>: Student</td>
+          </tr>
+          <tr>
+            <td>Current Institute</td>
+            <td>: Shyamoli Textile Engineering College</td>
+          </tr>
+          <tr>
+            <td>Subject</td>
+            <td>: Computer Science & Engineering (CSE)</td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>: Female</td>
+          </tr>
+          <tr>
+            <td>Marital Status</td>
+            <td>: Unmarried</td>
+          </tr>
+          <tr>
+            <td>Blood Group</td>
+            <td>: A+</td>
+          </tr>
+          <tr>
+            <td>Religion</td>
+            <td>: Islam</td>
+          </tr>
+          <tr>
+            <td>Nationality</td>
+            <td>: Bangladeshi</td>
+          </tr>
+        </table><br>
+
+        <div class="links a">
+          <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="font-size: 19px;" target="_blank">
+            <b> Educational Qualification :</b>
+          </a>
+        </div><br>
+        <table border="1" cellpadding="10">
+          <tr>
+            <th>Examination</th>
+            <th>Group</th>
+            <th>Board</th>
+            <th>Results</th>
+            <th>Passing Year</th>
+          </tr>
+          <tr>
+            <td>
+              <div class="links a">
+                <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
+                  PSC</a>
+              </div>
+            </td>
+            <td>-</td>
+            <td>Dhaka</td>
+            <td>5.00</td>
+            <td>2011</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="links a">
+                <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
+                  JSC</a>
+              </div>
+            </td>
+            <td>-</td>
+            <td>Dhaka</td>
+            <td>4.89</td>
+            <td>2014</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="links a">
+                <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
+                  SSC</a>
+              </div>
+            </td>
+            <td>Science</td>
+            <td>Dhaka</td>
+            <td>5.00</td>
+            <td>2017</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="links a">
+                <a href="http://127.0.0.1:5500/Portfolio-Website/results.html" style="color: rgb(0, 0, 0)">
+                  HSC</a>
+              </div>
+            </td>
+            <td>Science</td>
+            <td>Dhaka</td>
+            <td>4.00</td>
+            <td>2019</td>
+          </tr>
+        </table><br>
+
+        <h3 style="color: rgb(5, 126, 255);">Experience :</h3>
+        <p>I started tuition in after since my college life.
+          I have experience to teach class 4,5,6,7, SSC & HSC.
+          Now I am teaching 3 students of class 9-10 (ICT, Math, Higher Math) for almost 2 years and running.
+          And also 1 student of HSC (ICT only).
+        </p><br>
+
+        <div class="links a">
+          <a href="http://127.0.0.1:5500/Portfolio-Website/skill.html" style="font-size: 19px;" target="_blank">
+            <b>Skills :</b>
         </div></a>
-      <table cellpadding="5">
-        <tr>
-          <td width="25%">Language Skill</td>
-          <td>: Fluent in Bangla & English.</td>
-        </tr>
-        <tr>
-          <td>Computer Skill</td>
-          <td>: MS Word, MS PowerPoint, MS Excel, Internet      Browsing.</td>
-        </tr>
-      </table><br>
+        <table cellpadding="5">
+          <tr>
+            <td width="25%">Language Skill</td>
+            <td>: Fluent in Bangla & English.</td>
+          </tr>
+          <tr>
+            <td>Computer Skill</td>
+            <td>: MS Word, MS PowerPoint, MS Excel, Internet Browsing.</td>
+          </tr>
+        </table><br>
 
-      <div class="links a">
+        <div class="links a">
           <a href="http://127.0.0.1:5500/Portfolio-Website/hobby.html" style="font-size: 19px;" target="_blank">
             <b> Hobby :</b>
-          </div> </a>
-        <ul> 
+        </div> </a>
+        <ul>
           <li>Drawing</li>
           <li>Gardening</li>
           <li>Reading book</li>
         </ul>
 
-    </div>   
+      </div>
+    </div>
   </div>
-</div>
 
 
-<div class="footer">
-  <div class="links a">
-    <a href="https://www.linkedin.com/in/fahmida-akter-shimu/"
-    style="color:rgb(108, 17, 236); font-style: italic;"
-    target="_blank" >LinkedIn </a>
+  <div class="footer">
+    <div class="links a">
+      <a href="https://www.linkedin.com/in/fahmida-akter-shimu/" style="color:rgb(108, 17, 236); font-style: italic;"
+        target="_blank">LinkedIn </a>
+    </div>
   </div>
-</div>
 
 </body>
+
 </html>
